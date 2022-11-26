@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Swiperjs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Shop</title>
+</head>
+
+<body>
+
+    <iframe src="header.html"
+        onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()">
+    </iframe>
+
+    <div class="title">
+        <div class="container">
+            <h2>Shop</h2>
+            <a href="index.html">Home</a> - <a href="shop.html">Shop</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 col-sm-12 ">
+
+                    <div class="department my-4">
+                        <h4>Department</h4>
+                        <a href="shop_details.html">Fresh Meat</a><br>
+                        <a href="shop_details.html">Vegetables</a><br>
+                        <a href="shop_details.html">Fruit & Nut Gifts</a><br>
+                        <a href="shop_details.html">Fresh Berries</a><br>
+                        <a href="shop_details.html">Ocean Foods</a><br>
+                        <a href="shop_details.html">Butter & Eggs</a><br>
+                        <a href="shop_details.html">Fastfood</a><br>
+                        <a href="shop_details.html">Fresh Onion</a><br>
+                        <a href="shop_details.html">Papayaya & Crisps</a><br>
+                        <a href="shop_details.html">Oatmeal</a>
+                    </div>
+
+                    <div class="wrapper ">
+                        <h4>Price</h4>
+                        <fieldset class="filter-price">
+                            <div class="price-field">
+                                <input type="range" min="10" max="50" value="10" id="lower">
+                                <input type="range" min="100" max="500" value="500" id="upper">
+                            </div>
+                            <div class="price-wrap">
+                                <span class="price-title">FILTER</span>
+                                <div class="price-wrap-1">
+                                    <input id="one">
+                                    <label for="one">$</label>
+                                </div>
+                                <div class="price-wrap_line">-</div>
+                                <div class="price-wrap-2">
+                                    <input id="two">
+                                    <label for="two">$</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="color">
+                        <h4>Color</h4>
+                        <div class="list-color d-flex">
+                            <ul>
+                                <li><a href="#">White</a></li>
+                                <li><a href="#">Red</a></li>
+                                <li><a href="#">Blue</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Gray</a></li>
+                                <li><a href="#">Black</a></li>
+                                <li><a href="#">Green</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="size">
+                        <h4>Popular Size</h4>
+                        <div class="card-tag w-75">
+                            <a href="#">Large</a>
+                            <a href="#">Medium</a>
+                            <a href="#">Small</a>
+                            <a href="#">Tiny</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper mySwiper">
+                        <h4>Latest Products</h4>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-news d-flex my-2">
+                                    <img src="image/lp-1.jpg" height="100%">
+                                    <div class="content-card-news w-50 mx-3">
+                                        <h6>Crab Pool Security</h6>
+                                        <p>$30.00</p>
+                                    </div>
+                                </div>
+                                <div class="card-news d-flex my-2">
+                                    <img src="image/lp-2.jpg" height="100%">
+                                    <div class="content-card-news w-50 mx-3">
+                                        <h6>Crab Pool Security</h6>
+                                        <p>$30.00</p>
+                                    </div>
+                                </div>
+                                <div class="card-news d-flex my-2">
+                                    <img src="image/lp-3.jpg" height="100%">
+                                    <div class="content-card-news w-50 mx-3">
+                                        <h6>Crab Pool Security</h6>
+                                        <p>$30.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-news d-flex my-2">
+                                    <img src="image/lp-1.jpg" height="100%">
+                                    <div class="content-card-news w-50 mx-3">
+                                        <h6>Crab Pool Security</h6>
+                                        <p>$30.00</p>
+                                    </div>
+                                </div>
+                                <div class="card-news d-flex my-2">
+                                    <img src="image/lp-2.jpg" height="100%">
+                                    <div class="content-card-news w-50 mx-3">
+                                        <h6>Crab Pool Security</h6>
+                                        <p>$30.00</p>
+                                    </div>
+                                </div>
+                                <div class="card-news d-flex my-2">
+                                    <img src="image/lp-3.jpg" height="100%">
+                                    <div class="content-card-news w-50 mx-3">
+                                        <h6>Crab Pool Security</h6>
+                                        <p>$30.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-sm-12 ">
+                    <h4>Sale Off</h4>
+                    <div class="swiper mySwipers">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide card-slide">
+                                <img src="image/pd-1.jpg">
+                                <div class="content-swiper text-center">
+                                    <label>Dried Fruit</label><br>
+                                    <span>Mixed Fruitss</span>
+                                    <p><b>$30.00</b><i>$36.00</i></p>
+                                </div>
+                                <div class="sale border rounded-circle">-20%</div>
+                            </div>
+                            <div class="swiper-slide card-slide"><img src="image/pd-2.jpg">
+                                <div class="content-swiper text-center">
+                                    <label>Dried Fruit</label><br>
+                                    <span>Mixed Fruitss</span>
+                                    <p><b>$30.00</b><i>$36.00</i></p>
+                                </div>
+                                <div class="sale border rounded-circle">-20%</div>
+                            </div>
+                            <div class="swiper-slide card-slide"><img src="image/pd-3.jpg">
+                                <div class="content-swiper text-center">
+                                    <label>Dried Fruit</label><br>
+                                    <span>Mixed Fruitss</span>
+                                    <p><b>$30.00</b><i>$36.00</i></p>
+                                </div>
+                                <div class="sale border rounded-circle">-20%</div>
+                            </div>
+                            <div class="swiper-slide card-slide"><img src="image/pd-4.jpg">
+                                <div class="content-swiper text-center">
+                                    <label>Dried Fruit</label><br>
+                                    <span>Mixed Fruitss</span>
+                                    <p><b>$30.00</b><i>$36.00</i></p>
+                                </div>
+                                <div class="sale border rounded-circle">-20%</div>
+                            </div>
+                            <div class="swiper-slide card-slide "><img src="image/pd-5.jpg">
+                                <div class="content-swiper text-center">
+                                    <label>Dried Fruit</label><br>
+                                    <span>Mixed Fruitss</span>
+                                    <p><b>$30.00</b><i>$36.00</i></p>
+                                </div>
+                                <div class="sale border rounded-circle">-20%</div>
+                            </div>
+                            <div class="swiper-slide card-slide"><img src="image/pd-6.jpg">
+                                <div class="content-swiper text-center">
+                                    <label>Dried Fruit</label><br>
+                                    <span>Mixed Fruitss</span>
+                                    <p><b>$30.00</b><i>$36.00</i></p>
+                                </div>
+                                <div class="sale border rounded-circle">-20%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="list-product">
+                        <div class="title-product d-flex justify-content-between">
+                            <span>Sort By <b>Default<i class="fa-solid fa-angle-down"></i></b></span>
+                            <p><b>16</b> Product found</p>
+                            <div class="local-sort">
+                                <i class="fa-solid fa-border-none"></i>
+                                <i class="fa-solid fa-list-ul"></i>
+                            </div>
+                        </div>
+
+                        <div class="product d-flex flex-wrap gap-3">
+                            <div class="card-product text-center">
+                                <img src="image/product-1.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+                            <div class="card-product text-center">
+                                <img src="image/product-2.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+                            <div class="card-product text-center">
+                                <img src="image/product-3.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+                            <div class="card-product text-center">
+                                <img src="image/product-5.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+
+
+                            <div class="card-product text-center">
+                                <img src="image/product-6.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+
+                            <div class="card-product text-center">
+                                <img src="image/product-7.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+
+                            <div class="card-product text-center">
+                                <img src="image/product-8.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+
+                            <div class="card-product text-center">
+                                <img src="image/product-9.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+                            <div class="card-product text-center">
+                                <img src="image/product-10.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+                            <div class="card-product text-center">
+                                <img src="image/product-12.jpg" alt=""><br>
+                                <label>Crab Pool Security</label>
+                                <p><b>$30.00</b></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <iframe src="footer.html"
+                onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()">
+            </iframe>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="swiper.js"></script>
+
+
+</html>

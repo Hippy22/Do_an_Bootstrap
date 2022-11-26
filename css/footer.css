@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 100px;
+}
+.footer a {
+  text-decoration: none;
+  color: #888888;
+}
+.footer p {
+  color: #888888;
+}
+.footer .col-md-4 p {
+  width: 50%;
+  margin-top: 20px;
+}
+.footer .author div span {
+  margin-left: 20px;
+}/*# sourceMappingURL=footer.css.map */

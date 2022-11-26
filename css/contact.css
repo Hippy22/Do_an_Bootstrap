@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  background-image: url(../image/breadcrumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.title .container {
+  padding: 30px 0;
+}
+.title .container h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.title .container a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.infor .col-md-3 i {
+  font-size: 30px;
+  color: #F55556;
+}
+.infor .col-md-3 h2 {
+  font-weight: 700;
+}
+.infor .col-md-3 p {
+  font-size: 16px;
+  color: #666666;
+}
+
+.address iframe {
+  width: 100%;
+}
+
+.message h2 {
+  text-align: center;
+  padding: 30px 0;
+}
+.message .row {
+  padding: 0 80px;
+  margin-bottom: 15px;
+}
+.message a {
+  background-color: #7fad39;
+  color: #fff;
+  padding: 15px 40px;
+  font-weight: 700;
+  font-size: 17px;
+}/*# sourceMappingURL=contact.css.map */

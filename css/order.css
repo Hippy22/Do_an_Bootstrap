@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+section .row {
+  margin-bottom: 20px;
+}
+section hr {
+  width: 95%;
+}
+section .btn-cart a:nth-child(2) {
+  margin-right: 80px;
+}
+section .btn-cart a {
+  text-decoration: none;
+  background-color: #F55556;
+  padding: 8px 20px;
+  border-radius: 14px;
+  color: #fff;
+}
+section .btn-cart a:hover {
+  background-color: #7fad39;
+  color: #fff;
+  transition: 0.2s;
+}
+section .pay b:nth-child(2) {
+  color: red;
+}
+section .pay a {
+  text-decoration: none;
+  background-color: #F55556;
+  color: #fff;
+  padding: 8px 20px;
+  width: 100%;
+}
+section .pay .bg-light {
+  width: 45%;
+}
+
+@media all and (max-width: 780px) {
+  .col-md-6,
+.col-md-1,
+.col-md-2 {
+    width: 20%;
+  }
+  .col-md-6 img {
+    width: auto;
+  }
+  .pay .row .col-md-6 {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .pay .row .bg-light {
+    width: 100%;
+  }
+}/*# sourceMappingURL=order.css.map */

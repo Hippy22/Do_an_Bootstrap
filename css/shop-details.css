@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  background-image: url(../image/breadcrumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 30px 0;
+}
+.title h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.title a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+section {
+  margin-top: 70px;
+}
+section .col-md-5 .swiper {
+  margin-top: 20px;
+}
+section .col-md-7 {
+  padding-left: 20px;
+}
+section .col-md-7 .content-product-detail h3,
+section .col-md-7 .content-product-detail h4 {
+  font-size: 30px;
+}
+section .col-md-7 .content-product-detail h4 {
+  color: #dd2222;
+}
+section .col-md-7 .content-product-detail p {
+  color: #6f6f6f;
+}
+section .col-md-7 .content-product-detail i {
+  font-size: 14px;
+  color: #edbb0e;
+}
+section .col-md-7 .content-product-detail .list-btn .input-group {
+  width: 20%;
+}
+section .col-md-7 .content-product-detail .list-btn .input-group button,
+section .col-md-7 .content-product-detail .list-btn .input-group input {
+  background-color: #f5f5f5;
+  border: none;
+}
+section .col-md-7 .content-product-detail .list-btn .cart {
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid;
+  margin-left: 10px;
+  color: #fff;
+  background-color: #f55556;
+}
+section .col-md-7 .content-product-detail .list-btn a .fa-heart {
+  color: #6f6f6f;
+  padding: 20px 20px;
+  font-size: 20px;
+  height: 100%;
+  margin-left: 10px;
+  background-color: #f5f5f5;
+}
+section .col-md-7 ul {
+  margin-top: 40px;
+  padding: 0;
+  line-height: 2.5em;
+}
+section .col-md-7 ul li {
+  list-style-type: none;
+}
+section .col-md-7 ul li i {
+  color: #f55556;
+}
+section .col-md-7 ul li b {
+  display: inline-block;
+  width: 200px;
+}
+section .col-md-7 ul li .fa-brands {
+  margin-right: 30px;
+}
+section .infor .content-tab p {
+  color: #6f6f6f;
+}
+section .infor .tab {
+  position: relative;
+  margin-top: 50px;
+}
+section .infor .tab a {
+  color: #6f6f6f;
+  text-decoration: none;
+}
+section .infor .tab a h5 {
+  margin-left: 50px;
+}
+section .tab::before {
+  position: absolute;
+  left: 0;
+  top: 12px;
+  height: 1px;
+  width: 450px;
+  background: #ebebeb;
+  content: "";
+}
+section .tab::after {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  height: 1px;
+  width: 400px;
+  background: #ebebeb;
+  content: "";
+}
+section .related-product .row .card-related-product {
+  position: relative;
+}
+section .related-product .row .card-related-product .content-card-rp b {
+  font-size: 20px;
+}
+
+@media all and (max-width: 780px) {
+  .cart {
+    height: 60px;
+  }
+}/*# sourceMappingURL=shop-details.css.map */
